@@ -5,5 +5,7 @@ export const theme = {
     medium: '#485a8c',
     lightBlue: '#849be5',
     bright: '#bfd7ed',
+    white: '#ffffff',
+    nav: '#f8efeb',
   },
 }
