@@ -1,20 +1,9 @@
-import { StyleSheet, Text, View } from 'react-native'
-import { theme } from '../styles/theme'
+import { StyleSheet, Text } from 'react-native'
 
 export const HomeScreen = () => {
-  return (
-    <View style={styles.container}>
-      <Text>Witam eaweasdsdsadsadasdasdadsads1asa</Text>
-    </View>
-  )
+  return <Text>Witam eaweasdsdsadsadasdasdadsads1asa</Text>
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    width: '100%',
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: theme.colors.dark,
-  },
+  container: {},
 })

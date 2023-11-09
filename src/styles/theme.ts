@@ -7,5 +7,6 @@ export const theme = {
     bright: '#bfd7ed',
     white: '#ffffff',
     nav: '#f8efeb',
+    activeNav: '#f2e1d9',
   },
 }
