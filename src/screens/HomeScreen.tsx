@@ -1,9 +1,16 @@
-import { StyleSheet, Text } from 'react-native'
-
+import { ScrollView, StyleSheet, View } from 'react-native'
+import { theme } from '../styles/theme'
 export const HomeScreen = () => {
-  return <Text>Witam eaweasdsdsadsadasdasdadsads1asa</Text>
+  return (
+    <View style={styles.container}>
+      <ScrollView></ScrollView>
+    </View>
+  )
 }
 
 const styles = StyleSheet.create({
-  container: {},
+  container: {
+    backgroundColor: theme.colors.white,
+    height: '100%',
+  },
 })

@@ -4,7 +4,7 @@ import { StatusBar } from 'react-native'
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons'
 import { HomeScreen } from './src/screens/HomeScreen'
 import { AboutMeScreen } from './src/screens/aboutMe/AboutMeScreen'
-import { PortfolioScreen } from './src/screens/portfolio/PortfolioScreen'
+import { PortfolioScreen } from './src/screens/portfolio/portfolioScreen'
 import { theme } from './src/styles/theme'
 
 const Tab = createBottomTabNavigator()
@@ -26,6 +26,7 @@ export default function App() {
               backgroundColor: theme.colors.nav,
               height: 78,
               borderTopWidth: 0,
+              borderRadius: 25,
             },
             tabBarIconStyle: {
               marginTop: 8,
