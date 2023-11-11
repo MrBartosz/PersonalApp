@@ -8,12 +8,12 @@ export const AboutMeScreen = () => {
     <View style={styles.container}>
       <ScrollView>
         <View style={styles.aboutMeScreenHeader}>
-          <TextRegular marginTop={12} fontSize={18}>
-            {mocks.personalInformations.fullName}
-          </TextRegular>
           <View>
             <PhotoCard />
           </View>
+          <TextRegular marginTop={12} fontSize={18}>
+            {mocks.aboutMeContent.content}
+          </TextRegular>
         </View>
       </ScrollView>
     </View>

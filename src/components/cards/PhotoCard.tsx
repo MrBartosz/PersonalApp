@@ -24,6 +24,7 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
     width: 327,
     height: 327,
+    marginTop: 15,
   },
   images: {
     width: 153,

@@ -4,4 +4,7 @@ export const mocks = {
     firstName: 'Bartosz',
     lastName: 'Maksimowski',
   },
+  aboutMeContent: {
+    content: '',
+  },
 }
