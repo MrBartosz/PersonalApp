@@ -13,3 +13,8 @@ export interface IRecipeText {
   textDecorationLine?: string
   textAlign?: 'auto' | 'center' | 'left' | 'right' | 'justify'
 }
+
+export interface IContentCard {
+  year: string
+  content: string
+}
