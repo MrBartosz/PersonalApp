@@ -9,7 +9,7 @@ export const ContentCard = ({ year, content }: IContentCard) => {
         <TextRegular fontSize={24}>{year}</TextRegular>
       </View>
       <View style={styles.content}>
-        <TextRegular>{content}</TextRegular>
+        <TextRegular fontSize={12}>{content}</TextRegular>
       </View>
     </View>
   )

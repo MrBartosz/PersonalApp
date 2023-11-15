@@ -1,6 +1,6 @@
 import { ScrollView, StyleSheet, View } from 'react-native'
 import { mocks } from '../../../api/mocks'
-import { ContentCard } from '../../components/cards/ContentCard'
+import { ContentCard } from '../../components/cards/AboutMeContent'
 import { PhotoCard } from '../../components/cards/PhotoCard'
 import { TextRegular } from '../../components/typography/Text'
 import { theme } from '../../styles/theme'

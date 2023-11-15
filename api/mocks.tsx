@@ -17,4 +17,10 @@ export const mocks = {
     content2023:
       'I landed my first job as a junior frontend developer trainee. This year, I also managed to reach the third stage of the recruitment process for an Air Traffic Controller position',
   },
+  homeContent: {
+    header: 'WELCOME TO MY APP!',
+    content1: 'Learn more about me and my background here.',
+    iconContent: '',
+    iconContent2: '',
+  },
 }
