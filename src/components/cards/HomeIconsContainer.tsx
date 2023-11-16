@@ -1,6 +1,8 @@
-import React from 'react'
-import { StyleSheet, View } from 'react-native'
+import React, { useState } from 'react'
+import { Pressable, StyleSheet, View } from 'react-native'
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons'
+import { ContactModal } from '../modals/ContactModal'
+import { StackModal } from '../modals/StackModal'
 import { TextRegular } from '../typography/Text'
 
 interface HomeIconsProps {
@@ -8,22 +10,41 @@ interface HomeIconsProps {
   size: number
 }
 
+enum ActiveModal {
+  None = 'none',
+  Stack = 'stack',
+  Contact = 'contact',
+}
+
 export const HomeIcons = ({ color, size }: HomeIconsProps) => {
+  const [activeModal, setActiveModal] = useState<ActiveModal>(ActiveModal.None)
+
+  const handleModal = (modal: ActiveModal) => {
+    setActiveModal(modal)
+  }
+
+  const closeModal = () => {
+    setActiveModal(ActiveModal.None)
+  }
+
   return (
     <View style={styles.contentContainer}>
-      <View style={styles.iconContainer}>
+      <Pressable style={styles.iconContainer} onPress={() => handleModal(ActiveModal.Stack)}>
         <MaterialCommunityIcons name="chemical-weapon" size={size} color={color} />
         <TextRegular fontSize={12} color="white">
           Checkout My Stack
         </TextRegular>
-      </View>
+      </Pressable>
       <View style={styles.separator} />
-      <View style={styles.iconContainer}>
+      <Pressable style={styles.iconContainer} onPress={() => handleModal(ActiveModal.Contact)}>
         <MaterialCommunityIcons name="phone" size={size} color={color} />
         <TextRegular fontSize={12} color="white">
           Contact Me
         </TextRegular>
-      </View>
+      </Pressable>
+
+      {activeModal === ActiveModal.Stack && <StackModal closeModal={closeModal} />}
+      {activeModal === ActiveModal.Contact && <ContactModal closeModal={closeModal} />}
     </View>
   )
 }
