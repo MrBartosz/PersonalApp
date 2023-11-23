@@ -1,4 +1,4 @@
-export const mocks = {
+export const strings = {
   personalInformations: {
     fullName: 'Bartosz Maksimowski',
     firstName: 'Bartosz',

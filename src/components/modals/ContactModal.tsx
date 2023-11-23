@@ -40,7 +40,7 @@ export const ContactModal: FC<ContactModalProps> = ({ closeModal }) => {
 const styles = StyleSheet.create({
   modalOverlay: {
     flex: 1,
-    paddingTop: '20%',
+    paddingTop: '30%',
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: 'rgba(0, 0, 0, 0.5)',
@@ -50,7 +50,7 @@ const styles = StyleSheet.create({
     height: 349,
     alignItems: 'center',
     gap: 24,
-    backgroundColor: theme.colors.white,
+    backgroundColor: theme.colors.nav,
     paddingTop: 12,
     paddingBottom: 46,
     paddingLeft: 20,
