@@ -1,4 +1,4 @@
-export const mocks = {
+export const strings = {
   personalInformations: {
     fullName: 'Bartosz Maksimowski',
     firstName: 'Bartosz',
@@ -16,5 +16,14 @@ export const mocks = {
       'Having had my first exposure to programming during my studies, primarily with low-level languages, I decided to start learning frontend development in my free time',
     content2023:
       'I landed my first job as a junior frontend developer trainee. This year, I also managed to reach the third stage of the recruitment process for an Air Traffic Controller position',
+  },
+  homeContent: {
+    header: 'WELCOME TO MY APP!',
+    content1: 'Learn more about me and my background here.',
+    iconContent: '',
+    iconContent2: '',
+  },
+  stackModal: {
+    header: "I've worked with these technologies:",
   },
 }

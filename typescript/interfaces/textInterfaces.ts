@@ -18,3 +18,7 @@ export interface IContentCard {
   year: string
   content: string
 }
+
+export interface IContentHome {
+  children: string
+}
