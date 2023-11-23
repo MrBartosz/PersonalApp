@@ -23,4 +23,7 @@ export const strings = {
     iconContent: '',
     iconContent2: '',
   },
+  stackModal: {
+    header: "I've worked with these technologies:",
+  },
 }
