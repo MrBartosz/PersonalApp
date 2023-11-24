@@ -26,4 +26,7 @@ export const strings = {
   stackModal: {
     header: "I've worked with these technologies:",
   },
+  contactModal: {
+    header: 'Contact me through:',
+  },
 }
