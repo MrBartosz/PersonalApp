@@ -4,6 +4,20 @@ export const strings = {
     firstName: 'Bartosz',
     lastName: 'Maksimowski',
   },
+  youtubeURL: {
+    boardGameUrl: 'bsd1QiDX7Ow',
+    dogAppUrl: '7JGBMtnVLWo',
+    websiteProjectUrl: 'MrohkBtSMdA',
+    multitaskProjectUrl: 'UGWilU_dG4M',
+    firstProjectsUrl: '4EPFD38PZEc',
+  },
+  videoCardHeaders: {
+    dogApp: 'Witam',
+    boardGame: 'Witam',
+    websiteProject: 'Witam',
+    multitask: 'Witam',
+    firstProjects: 'Witam',
+  },
   aboutMeContent: {
     contentHeader: 'My Life Timeline',
     content2018:
