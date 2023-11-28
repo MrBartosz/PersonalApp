@@ -19,7 +19,6 @@ export const PortfolioScreen = () => {
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: theme.colors.white,
-    height: '100%',
+    backgroundColor: theme.colors.dark,
   },
 })

@@ -12,11 +12,13 @@ export const strings = {
     firstProjectsUrl: '4EPFD38PZEc',
   },
   videoCardHeaders: {
-    dogApp: 'Witam',
-    boardGame: 'Witam',
-    websiteProject: 'Witam',
-    multitask: 'Witam',
-    firstProjects: 'Witam',
+    dogApp:
+      'Dog Breed App is an application that utilizes two screens to enable browsing through different dog breeds and displaying random pictures of them',
+    boardGame: 'I have developed a card matching game application that stores the best score achieved by the player',
+    websiteProject: 'This is my first website that presents information about me, about my stack and my projects',
+    multitask:
+      'This project includes smaller projects like interactive mirror and light bulb rendering, elevator simulations based on scrolling and page position',
+    firstProjects: 'This is a collection of the first projects I have undertaken in my programming journey',
   },
   aboutMeContent: {
     contentHeader: 'My Life Timeline',
